@@ -731,16 +731,21 @@
               <h3 class="card-title">Flaunter</h3>
             </div>
           </a>
+          <!-- <div class="js-shuffle-item col mb-5" data-groups='["product"]'>
+          
           <a class="card card-flush card-transition" href="#">
             <?php include 'add.php' ?>
             <div class="card card-flush card-transition">
+              <center>
               <form class="my-5" include="add.php" method="Post" enctype="multipart/form-data">
                   <input type="file" name="image" class="form-control">
                   <input type="submit" name="upload" value="INSERT" class="btn btn-success my-3">
                 </form>
+              </center>
             </div>
           </a>
-          <!-- End Card -->
+          
+        </div> -->
         </div>
         <!-- End Col -->
 
@@ -753,17 +758,9 @@
               <h3 class="card-title">Inside weather</h3>
             </div>
           </a>
-          <!-- <a class="card card-flush card-transition" href="#">
-            
-            <div class="card card-flush card-transition">
-              <form class="my-5" include="add.php" method="Post" enctype="multipart/form-data">
-                  <input type="file" name="image" class="form-control">
-                  <input type="submit" name="upload" value="UPLOAD" class="btn btn-success my-3">
-                </form>
-            </div>
-          </a> -->
           <!-- End Card -->
         </div>
+        
         <!-- End Col -->
       </div>
       <!-- End Row -->
@@ -773,7 +770,23 @@
   <!-- ========== END MAIN CONTENT ========== -->
 
   <!-- ========== FOOTER ========== -->
-
+   <!--Insert Image Code-->
+   <center>
+   <div class="js-shuffle row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center" style="margin-top: -50px;">
+       <div class="js-shuffle-item col mb-5" data-groups='["product"]'>
+          <a class="card card-flush card-transition" href="#">
+            <?php include 'add.php' ?>
+            <div class="card card-flush card-transition">
+              <form class="my-5" include="add.php" method="Post" enctype="multipart/form-data">
+                  <input type="file" name="image" class="form-control">
+                  <input type="text" name="imagename" placeholder="Enter Name of the Image" class="form-control my-2" required="">
+                  <input type="submit" name="upload" value="INSERT" class="btn btn-success my-3">
+              </form>
+            </div>
+          </a>
+        </div>
+   </div>
+   </center>
 
   <!-- ========== END FOOTER ========== -->
 

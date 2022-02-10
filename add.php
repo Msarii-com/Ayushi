@@ -5,7 +5,7 @@ $con = mysqli_connect("localhost","root","","portfolio");
 
 if (isset($_POST['upload'])) {
       $file = $_FILES['image']['name'];
-
+      $imagename = $_POST['imagename'];
       $query = "INSERT INTO upload(image) VALUES('$file')";
       $res = mysqli_query($con,$query);
 
@@ -32,3 +32,5 @@ if (isset($_POST['upload'])) {
                                   }
 
                               ?>
+
+                
