@@ -1,0 +1,25 @@
+1.Create a Database and Database Table
+2.Connect to the Database
+3.Session Create for Logged in User
+4.Create a Registration and Login Form
+5.Connect to the portfolio page
+6.Create a Logout
+7.CSS File Create
+
+
+Registration Form - 
+   Create a form using HTML & CSS
+   database connection
+   Insert values to the database
+   Store values to the database
+   Submit
+
+Login Form - 
+   Create a form using HTML & CSS
+   Databse connection
+   Insert values
+   Check the user is exist or not
+   Fetch the value from the database
+   login
+   
+   

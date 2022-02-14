@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php
+//include auth_session.php file on all user panel pages
+include("auth_session.php");
+?>
+<DOCTYPE html>
 <html lang="en">
 <head>
   <!-- Required Meta Tags Always Come First -->
@@ -788,9 +792,11 @@
    </div>
    </center>
 
-    <p>
-        <a href="logout.php" class="btn btn-danger m-5" style="">Sign Out</a>
-    </p>
+    <div class="form m-2 p-2">
+        <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
+        <p>You are now on portfolio page.</p>
+        <p class="btn btn-danger"><a style="color: white;" href="logout.php">Logout</a></p>
+    </div>
 
   <!-- ========== END FOOTER ========== -->
 
