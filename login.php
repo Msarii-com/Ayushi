@@ -37,7 +37,8 @@
         <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true"/>
         <input type="password" class="login-input" name="password" placeholder="Password"/>
         <input type="submit" value="Login" name="submit" class="login-button"/>
-        <p class="link"><a href="register.php">New Registration</a></p>
+        <p class="link"><a href="register.php">New Registration</a></p><br>
+        <button class="btn" style="background-color: #FF5C58; color: white; text-align: center; font-size: 16px; width: 100%; height: 50px; border-radius: 35px;"><a style="text-decoration: none; color: white;" href="portfolio-grid.html">See Our Portfolio Page</a></button>
   </form>
 <?php
     }
